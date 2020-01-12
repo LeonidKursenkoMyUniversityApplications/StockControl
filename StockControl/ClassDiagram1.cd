@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StockControl.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Controllers.Converter">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAEAAARAACAAAGABAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Controllers.DepotDbConnector" Collapsed="true">
+    <Position X="13.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAABQAAAAAAAABABAAAgAAAAAAgAAAQI=</HashCode>
+      <FileName>Controllers\DepotDbConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.BufferData">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="StockControl.Entities.BufferData.Modes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\Models\BufferData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAIAAAAIAAAAAAAAABABACAAAACACAgAAAAA=</HashCode>
+      <FileName>Entities\Models\BufferData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.Destination" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\Destination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.DestinationTable" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\DestinationTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.Fashion" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\Fashion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.FashionTable" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\FashionTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.IssuedMaterials" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAAAAAAAAAACAAAAAAAAAAAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>Entities\Tables\IssuedMaterials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.IssuedMaterialsTable" Collapsed="true">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\IssuedMaterialsTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.Manufacturer" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAIAAAAAAQAAAIAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\Manufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.ManufacturerTable" Collapsed="true">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\ManufacturerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.Material" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAEAAAAAAAAAQAAAAACAAAEAAAAAIAAAA=</HashCode>
+      <FileName>Entities\Tables\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.MaterialTable" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\MaterialTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.MaterialType" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\MaterialType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.MaterialTypeTable" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\MaterialTypeTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.Orders" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAAAAAAAACAAAAAAAAAAAAAABAAAACAIAAAA=</HashCode>
+      <FileName>Entities\Tables\Orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.OrdersTable" Collapsed="true">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\OrdersTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.ReceivedMaterial" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAACAAIAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Entities\Tables\ReceivedMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.ReceivedMaterialTable" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\ReceivedMaterialTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.State" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Entities.StateTable" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Tables\StateTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockControl.Views.Report1Window" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Report1Window.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Views.Report2Window" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Report2Window.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Views.Report3Window" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Report3Window.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Views.Report4Window" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Report4Window.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Views.Report5Window" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Report5Window.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Views.ReportMasterWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Views\ReportMasterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StockControl.Views.StockControlWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAFgAAAAAAAAAAAQBAAAAICAAAAAAA=</HashCode>
+      <FileName>Views\StockControlWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
